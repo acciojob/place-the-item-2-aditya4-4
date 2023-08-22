@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+.holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+.item{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+
+.item3{
+  background-color: chartreuse;
+  order: -1;
+}
